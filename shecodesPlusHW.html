@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="srchw/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="border">
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              class="form-control shadow-sm"
+              id="city-input"
+            />
+          </div>
+          <div class="col-3" id="search-button">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <button class="btn btn-success w-100" id="current-location-button">
+              Current
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="location">📍 Your Location Now</div>
+      <h2>
+        <div id="city"></div>
+        <div id="Ddate"></div>
+        <li id="description"></li>
+      </h2>
+      <h1 class="emoji">☀️</h1>
+      <div class="shine">Shine</div>
+      <div class="float-left">
+        <span class="temperature" id="temperature"></span
+        ><span class="units">°C</span>
+      </div>
+
+      <div class="container text-center signal">
+        <div class="row align-items-star">
+          <div class="col">🌬️<span id="wind"></span>km/h</div>
+          <div class="col">💧<span id="humidity"></span>%</div>
+          <div class="col">💨 ↓29,92 in</div>
+        </div>
+      </div>
+
+      <div class="container text-center days">
+        <div class="row align-items-star">
+          <div class="col">yeasterday</div>
+          <div class="col">today</div>
+          <div class="col">tomorrow</div>
+        </div>
+      </div>
+
+      <div class="container text-center icon">
+        <div class="row align-items-star">
+          <div class="col">
+            <i class="fa-solid fa-cloud-rain coludwrain-icon"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-sun sun-icon"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-cloud-sun sunwcloud-icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center degree">
+        <div class="row align-items-star">
+          <div class="col">22°</div>
+          <div class="col">26°</div>
+          <div class="col">24°</div>
+        </div>
+      </div>
+    </div>
+    <script src="srchw/index.js"></script>
+  </body>
+</html>

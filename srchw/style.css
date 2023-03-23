@@ -1,0 +1,77 @@
+.border {
+  border: 1px solid rgb(69, 69, 65);
+  border-radius: 6px;
+  padding: 18px;
+  margin: 20px auto;
+  max-width: 600px;
+  display: block;
+  background: rgb(161, 218, 251);
+}
+body {
+  background: white;
+  list-style: none;
+  font-family: "Handlee", cursive;
+}
+li {
+  list-style: none;
+  padding: 0 140px;
+}
+
+.location {
+  text-align: center;
+  opacity: 80%;
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  padding: 2px;
+}
+
+#Ddate {
+  font-weight: 400;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 80px;
+}
+
+.shine {
+  text-align: center;
+  background: rgb(187, 187, 187);
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  max-width: 29px;
+  font-size: 10px;
+}
+
+.font-left {
+  text-align: center;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+}
+
+.units {
+  margin-top: 20px;
+  position: relative;
+  top: -34px;
+}
+
+.signal {
+  margin: 10px 0 10px 4px;
+  font-size: 11px;
+}
+
+.icon {
+  font-size: 40px;
+  line-height: 3;
+}
