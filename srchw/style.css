@@ -5,7 +5,9 @@
   margin: 20px auto;
   max-width: 600px;
   display: block;
-  background: rgb(161, 218, 251);
+  background: #757f9a;
+  background: -webkit-linear-gradient(to right, #d7dde8, #757f9a);
+  background: linear-gradient(to right, #d7dde8, #757f9a);
 }
 body {
   background: white;
