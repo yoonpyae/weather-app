@@ -12,7 +12,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    <link rel="stylesheet" href="srchw/style.css" />
+    <link rel="stylesheet" href="srchw/" />
     <title>Weather App</title>
   </head>
   <body>
@@ -22,7 +22,7 @@
           <div class="col-6">
             <input
               type="search"
-              placeholder="Type a city.."
+              placeholder="Type a city..."
               autofocus="on"
               autocomplete="off"
               class="form-control shadow-sm"
@@ -46,14 +46,19 @@
       <div class="location">📍 Your Location Now</div>
       <h2>
         <div id="city"></div>
-        <div id="Ddate"></div>
+        <div id="date"></div>
         <li id="description"></li>
       </h2>
-      <h1 class="emoji">☀️</h1>
-      <div class="shine">Shine</div>
-      <div class="float" id="temp">
-        <span class="temperature" id="temperature"></span
-        ><span class="units">°C</span>
+
+      <div class="clearfix weather-temperature">
+        <img src="" alt="Clear" id="icon" class="float-left" />
+        <div class="float" id="temp">
+          <span class="temperature" id="temperature"></span
+          ><span class="units">
+            <a id="celsius-link" class="active">°C | </a>
+            <a id="fahrenheit-link" href="#">°F</a>
+          </span>
+        </div>
       </div>
 
       <div class="container text-center signal">
