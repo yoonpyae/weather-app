@@ -162,4 +162,4 @@ fahrenheitlink.addEventListener("click", displayFahrenheit);
 let celsiuslink = document.querySelector("#celsius-link");
 celsiuslink.addEventListener("click", displayCelsius);
 
-searchCity("Tamwe, Yangon, Myanmar");
+searchCity("Yangon, Myanmar");
